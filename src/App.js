@@ -3,6 +3,7 @@ import './App.css';
 import AddSubscriber from './components/AddSubscriber';
 import SearchSubscriber from './components/SearchSubscriber';
 import DeleteSubscriber from './components/DeleteSubscriber';
+import ViewSubscriber from './components/ViewSubscriber';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <AddSubscriber/>
       <SearchSubscriber/>
       <DeleteSubscriber/>
+      <ViewSubscriber/>
     </div>
   );
 }
